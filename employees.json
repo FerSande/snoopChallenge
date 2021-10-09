@@ -1,0 +1,42 @@
+[
+    {
+        "id": 2,
+        "Nombre": "Aldana",
+        "Apellido": "Gonzalez",
+        "DNI": 58956355,
+        "Fecha_Nacimiento": "16/11/1994",
+        "Fecha_Ingreso": "5/11/2010"
+    },
+    {
+        "id": 1,
+        "Nombre": "Fernando",
+        "Apellido": "Sande",
+        "DNI": 85956636,
+        "Fecha_Nacimiento": "18/06/1994",
+        "Fecha_Ingreso": "05/08/2020"
+    },
+    {
+        "id": 3,
+        "Nombre": "Federico",
+        "Apellido": "Gonzalez",
+        "DNI": 25653398,
+        "Fecha_Nacimiento": "02/12/2001",
+        "Fecha_Ingreso": "21/07/2017"
+    },
+    {
+        "id": 5,
+        "Nombre": "Leandro",
+        "Apellido": "Paez",
+        "DNI": 56665988,
+        "Fecha_Nacimiento": "01/03/1995",
+        "Fecha_Ingreso": "5/07/2016"
+    },
+    {
+        "id": 6,
+        "Nombre": "Agustina",
+        "Apellido": "Sanchez",
+        "DNI": 38956648,
+        "Fecha_Nacimiento": "02/02/2000",
+        "Fecha_Ingreso": "5/07/2021"
+    }
+]
