@@ -1,24 +1,20 @@
 from employeeApp import *
 
-@app.route('/employees/<int:id>', methods=['GET'])
-def get_employee(id):
-    return getEmployees(id)
-
-@app.route('/employees', methods=['POST'])
-def add_employee():
-    return addEmployee()
-
-@app.route('/employees', methods=['PUT'])
-def put():
-    return changeEmployee()
-
-@app.route('/employees/<int:id>', methods=['DELETE'])
-def delete_employee(id):
-    return delete(id)
-
-@app.route('/employees', methods=['GET'])
-def employees_Filtered():
-    return employeesFiltered()
+@app.route('/employees', methods=['POST','PUT','GET'])
+def employees():
+    if request.method == "POST":
+        return addEmployee()
+    if request.method == "PUT":
+        return changeEmployee()
+    if request.method == "GET":
+        return employeesFiltered()
+    
+@app.route('/employee/<int:id>', methods=['GET','DELETE']) 
+def employee(id):
+    if request.method == "DELETE":
+        return delete(id)
+    if request.method == "GET":
+        return getEmployees(id)
 
 @app.route('/employees/plot1', methods=['GET'])
 def plot_graph1():
