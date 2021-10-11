@@ -20,16 +20,16 @@
         "Nombre": "Federico",
         "Apellido": "Gonzalez",
         "DNI": 25653398,
-        "Fecha_Nacimiento": "02/12/2001",
-        "Fecha_Ingreso": "21/07/2017"
+        "Fecha_Nacimiento": "02/12/1976",
+        "Fecha_Ingreso": "21/07/2001"
     },
     {
         "id": 5,
         "Nombre": "Leandro",
         "Apellido": "Paez",
         "DNI": 56665988,
-        "Fecha_Nacimiento": "01/03/1995",
-        "Fecha_Ingreso": "5/07/2016"
+        "Fecha_Nacimiento": "01/03/1984",
+        "Fecha_Ingreso": "5/07/2001"
     },
     {
         "id": 6,
